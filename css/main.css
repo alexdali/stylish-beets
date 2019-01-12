@@ -1,0 +1,71 @@
+body {
+  background-color: #c9b5ab;
+  font-family: PT Serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, nav {
+  font-family: PT Sans, sans-serif;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav a {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: .8rem;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: lower-greek;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+dt::after {
+  content: ": ";
+}
+
+.italic {
+  font-style: italic;
+}
+
+dl div:not(.italic) dt {
+  font-weight: bold;
+}
