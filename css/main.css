@@ -31,27 +31,8 @@ nav a {
   font-weight: bold;
 }
 
-nav a::after a:hover {
-  background-color: #FFFFFF ;
-  /* border: 1px solid #DADADA ;
-  border-radius: 22px 22px 22px 22px ; */
-  color: #222 ;
-  content: "" ;
-  display: none ;
-  font-size: 30px ;
-  height: 28px ;
-  line-height: 26px ;
-  margin-top: -14px ;
-  position: absolute ;
-  right: 6px ;
-  text-align: center ;
-  text-indent: 1px ;
-  top: 50% ;
-  width: 28px ;
-}
-
-footer a:hover {
-  span: #3f1622;
+a:hover {
+  color: #3f1622;
 }
 
 figcaption {
